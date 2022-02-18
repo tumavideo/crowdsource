@@ -51,7 +51,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "Using well researched approaches to solving problems targeted at youth.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "/contact",
   imageSrc = TeamIllustrationSrc,
@@ -83,7 +83,11 @@ export default ({
           <TextContent>
             <Subheading>{subheading}</Subheading>
             <Heading>{heading}</Heading>
-            <Description>{description}</Description>
+            <Description>
+              {textOnLeft
+                ? description
+                : "Systemic barriers which exist in our communities often. lead to disproportionate levels of. unemployment and opportunity for young people.  We are working with governments, NGOs and private sector to break down these barriers and improve accessibility of services."}
+            </Description>
             <PrimaryButton
               buttonRounded={buttonRounded}
               as="a"

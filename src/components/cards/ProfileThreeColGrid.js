@@ -47,67 +47,10 @@ const CardLinks = styled.div`
 `;
 
 export default ({
-  heading = "Meet These Fine Folks.",
+  heading = "Meet The Team.",
   subheading = "Our Team",
   description = "The young group that is making it all happen.",
   cards = [
-    {
-      imageSrc: "./assets/team/_75A0395.JPG",
-      position: "Founder",
-      name: "Sam Abrahams",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: "./assets/team/_75A0363.JPG",
-      position: "Founder",
-      name: "Anthony Sikaneta",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: "./assets/team/_75A0381.JPG",
-      position: "Sr. Designer",
-      name: "Mwansa Mutale",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
     {
       imageSrc: "./assets/team/_75A0384.JPG",
       position: "Executive Administrator",
@@ -128,9 +71,28 @@ export default ({
       ],
     },
     {
-      imageSrc: "./assets/team/_75A0362.JPG",
-      position: "Strategic Partnerships",
-      name: "Sipho Kapala",
+      imageSrc: "./assets/team/_75A0381.JPG",
+      position: "Creative Director",
+      name: "Mwansa Mutale",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: "./assets/team/_75A0369.JPG",
+      position: "Communications & Research",
+      name: "Pearl Chunga",
       links: [
         {
           url: "https://twitter.com",
@@ -166,8 +128,27 @@ export default ({
       ],
     },
     {
+      imageSrc: "./assets/team/_75A0362.JPG",
+      position: "Strategic Partnerships",
+      name: "Sipho Kapala",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
       imageSrc: "./assets/team/_75A0371.JPG",
-      position: "Marketing",
+      position: "Communications & Research",
       name: "Jasmine Thomas",
       links: [
         {
@@ -185,9 +166,28 @@ export default ({
       ],
     },
     {
-      imageSrc: "./assets/team/_75A0369.JPG",
-      position: "Marketing",
-      name: "Pearl Chunga",
+      imageSrc: "./assets/team/_75A0363.JPG",
+      position: "Founder",
+      name: "Anthony Sikaneta",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: "./assets/team/_75A0395.JPG",
+      position: "Founder",
+      name: "Sam Abrahams",
       links: [
         {
           url: "https://twitter.com",

@@ -84,9 +84,9 @@ export default () => {
               We have now launched operations in Africa.
             </Notification>
             <Heading>
-              <span>Hire the best</span>
+              <span>Youth-driven consultancy &#38; development</span>
               <br />
-              <SlantedBackground>Creative Team.</SlantedBackground>
+              <SlantedBackground>Bright futures start here</SlantedBackground>
             </Heading>
             {/* <PrimaryAction>Read Customer Stories</PrimaryAction> */}
           </LeftColumn>

@@ -52,44 +52,6 @@ export default ({
   description = "The young group that is making it all happen.",
   cards = [
     {
-      imageSrc: "./assets/team/_75A0384.JPG",
-      position: "Executive Administrator",
-      name: "Anita Mulenga",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc: "./assets/team/_75A0381.JPG",
-      position: "Creative Director",
-      name: "Mwansa Mutale",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
       imageSrc: "./assets/team/_75A0369.JPG",
       position: "Communications & Research",
       name: "Pearl Chunga",
@@ -109,6 +71,44 @@ export default ({
       ],
     },
     {
+      imageSrc: "./assets/team/_75A0384.JPG",
+      position: "Executive Administrator",
+      name: "Anita Mulenga",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: "./assets/team/_75A0371.JPG",
+      position: "Communications & Research",
+      name: "Jasmine Thomas",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    /* {
       imageSrc: "./assets/team/_75A0374.JPG",
       position: "Quality Assurance",
       name: "Summers Arezio",
@@ -145,11 +145,11 @@ export default ({
           icon: GithubIcon,
         },
       ],
-    },
+    }, */
     {
-      imageSrc: "./assets/team/_75A0371.JPG",
-      position: "Communications & Research",
-      name: "Jasmine Thomas",
+      imageSrc: "./assets/team/_75A0381.JPG",
+      position: "Creative Director",
+      name: "Mwansa Mutale",
       links: [
         {
           url: "https://twitter.com",
@@ -184,7 +184,7 @@ export default ({
         },
       ],
     },
-    {
+    /* {
       imageSrc: "./assets/team/_75A0395.JPG",
       position: "Founder",
       name: "Sam Abrahams",
@@ -202,7 +202,7 @@ export default ({
           icon: GithubIcon,
         },
       ],
-    },
+    }, */
   ],
 }) => {
   return (

@@ -23,11 +23,11 @@ export default () => {
             description: (
               <>
                 <Address>
-                  <AddressLine>46 Kudu Road</AddressLine>
+                  <AddressLine>Suite 7, 46 Kudu Road</AddressLine>
                   <AddressLine>Kabulonga, LUN 10101</AddressLine>
                 </Address>
-                <Email>info@tumavideo.com</Email>
-                <Phone>+1 (203) 991-6988</Phone>
+                <Email>info@crowdsourcecreators.com</Email>
+                <Phone>+260 (76) 642-6165</Phone>
               </>
             ),
           },
@@ -36,11 +36,11 @@ export default () => {
             description: (
               <>
                 <Address>
-                  <AddressLine>20 Lukanga Road</AddressLine>
+                  <AddressLine>Unit 2, Plot No. 57A Lukanga Road</AddressLine>
                   <AddressLine>Roma, LUN 10101</AddressLine>
                 </Address>
-                <Email>info@tumavideo.com</Email>
-                <Phone>+1 (203) 991-6988</Phone>
+                <Email>info@crowdsourcecreators.com</Email>
+                <Phone>+260 (76) 642-6165</Phone>
               </>
             ),
           },

@@ -75,16 +75,17 @@ export default ({
       imageSrc: "assets/portfolio/the_portal.jpg",
       company: "The Portal",
       type: "Jobs Portal",
-      title: "Opportunity Aggregator",
+      title: "Opportunities for all Zambian Youths",
       durationText: "Youth Day Initiative",
       locationText: "Zambia",
     },
     {
       imageSrc: "assets/portfolio/tv_app.png",
       company: "TumaVideo",
-      type: "Social Networking Platform",
-      title: "Content Discovery, Short Videos and Photos",
-      durationText: "3 months of development",
+      type: "Cash for your content",
+      title:
+        "Pre-register to be notified as soon as the Tuma Video app goes live!",
+      durationText: "3 months of on-going development",
       locationText: "Zambia",
     },
   ];

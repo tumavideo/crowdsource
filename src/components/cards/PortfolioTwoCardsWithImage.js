@@ -126,6 +126,7 @@ export default ({
                     </CardMetaFeature>
                   </CardMeta>
                   <a
+                    href="#"
                     onClick={() => {
                       window.open(card.link, "_blank");
                     }}

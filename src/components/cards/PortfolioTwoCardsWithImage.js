@@ -1,13 +1,13 @@
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
-import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading } from "components/misc/Headings.js";
 import { PrimaryLink as PrimaryLinkBase } from "components/misc/Links.js";
-import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
+// import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { ReactComponent as LocationIcon } from "feather-icons/dist/icons/map-pin.svg";
 import { ReactComponent as TimeIcon } from "feather-icons/dist/icons/clock.svg";
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-icon.svg";
+// import { Link } from "react-router-dom";
 
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -56,7 +56,7 @@ const CardMetaFeature = styled.div`
     ${tw`w-5 h-5 mr-1`}
   }
 `;
-const CardAction = tw(PrimaryButtonBase)`w-full mt-6`;
+// const CardAction = tw(PrimaryButtonBase)`w-full mt-6`;
 
 export default ({
   subheading = "Our Portfolio",
@@ -67,8 +67,8 @@ export default ({
   ),
   description = "Working with NGOs, government, and other institutions in both the public and private sector.",
   linkText = "View all Projects",
-  cardLinkText = "Read Case Study",
   textOnLeft = false,
+  navigate,
 }) => {
   const cards = [
     {
@@ -78,6 +78,8 @@ export default ({
       title: "Opportunities for all Zambian Youths",
       durationText: "Youth Day Initiative",
       locationText: "Zambia",
+      link: "https://tumaworks.netlify.app",
+      cardLinkText: "Pre-register",
     },
     {
       imageSrc: "assets/portfolio/tv_app.png",
@@ -87,6 +89,8 @@ export default ({
         "Pre-register to be notified as soon as the Tuma Video app goes live!",
       durationText: "3 months of on-going development",
       locationText: "Zambia",
+      link: "#",
+      cardLinkText: "",
     },
   ];
   return (
@@ -121,7 +125,14 @@ export default ({
                       <LocationIcon /> {card.locationText}
                     </CardMetaFeature>
                   </CardMeta>
-                  <CardAction>{cardLinkText}</CardAction>
+                  <a
+                    onClick={() => {
+                      window.open(card.link, "_blank");
+                    }}
+                    className="px-8 py-3 font-bold rounded bg-primary-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline focus:outline-none transition duration-300"
+                  >
+                    {card.cardLinkText}
+                  </a>
                 </CardText>
               </Card>
             </CardColumn>

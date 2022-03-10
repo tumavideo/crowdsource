@@ -7,7 +7,7 @@ import { PrimaryLink as PrimaryLinkBase } from "components/misc/Links.js";
 import { ReactComponent as LocationIcon } from "feather-icons/dist/icons/map-pin.svg";
 import { ReactComponent as TimeIcon } from "feather-icons/dist/icons/clock.svg";
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-icon.svg";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -125,15 +125,15 @@ export default ({
                       <LocationIcon /> {card.locationText}
                     </CardMetaFeature>
                   </CardMeta>
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     onClick={() => {
                       window.open(card.link, "_blank");
                     }}
                     className="px-8 py-3 font-bold rounded bg-primary-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline focus:outline-none transition duration-300"
                   >
                     {card.cardLinkText}
-                  </a>
+                  </Link>
                 </CardText>
               </Card>
             </CardColumn>

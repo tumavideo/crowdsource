@@ -8,9 +8,6 @@ import {
   Subheading as SubheadingBase,
 } from "components/misc/Headings";
 import { SectionDescription } from "components/misc/Typography";
-import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
-import { ReactComponent as LinkedinIcon } from "images/linkedin-icon.svg";
-import { ReactComponent as GithubIcon } from "images/github-icon.svg";
 
 const HeadingContainer = tw.div``;
 const Heading = tw(SectionHeading)``;
@@ -52,157 +49,59 @@ export default ({
   description = "The young group that is making it all happen.",
   cards = [
     {
-      imageSrc: "./assets/team/_75A0369.JPG",
-      position: "Communications & Research",
-      name: "Pearl Chunga",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
+      imageSrc: "./assets/team/pele.jpg",
+      position: "Business & Development",
+      name: "Phele Chunga",
+      links: [],
     },
     {
-      imageSrc: "./assets/team/_75A0384.JPG",
+      imageSrc: "./assets/team/marketing.jpg",
+      position: "Marketing",
+      name: "Thabo Masiye",
+      links: [],
+    },
+    {
+      imageSrc: "./assets/team/_75A0384.jpg",
       position: "Executive Administrator",
       name: "Anita Mulenga",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
+      links: [],
     },
     {
-      imageSrc: "./assets/team/_75A0371.JPG",
+      imageSrc: "./assets/team/_75A0371.jpg",
       position: "Communications & Research",
       name: "Jasmine Thomas",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    /* {
-      imageSrc: "./assets/team/_75A0374.JPG",
-      position: "Quality Assurance",
-      name: "Summers Arezio",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
+      links: [],
     },
     {
-      imageSrc: "./assets/team/_75A0362.JPG",
-      position: "Strategic Partnerships",
-      name: "Sipho Kapala",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    }, */
+      imageSrc: "./assets/team/accounts.jpg",
+      position: "Accounts",
+      name: "Andrew Mabonde",
+      links: [],
+    },
     {
-      imageSrc: "./assets/team/_75A0381.JPG",
+      imageSrc: "./assets/team/youth_engagement.jpg",
+      position: "Youth Engagement",
+      name: "Thabo Haambote",
+      links: [],
+    },
+    {
+      imageSrc: "./assets/team/_75A0381.jpg",
       position: "Creative Director",
       name: "Mwansa Mutale",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
+      links: [],
     },
     {
-      imageSrc: "./assets/team/_75A0363.JPG",
-      position: "Founder",
+      imageSrc: "./assets/team/_75A0363.jpg",
+      position: "CTO",
       name: "Anthony Sikaneta",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
+      links: [],
     },
-    /* {
-      imageSrc: "./assets/team/_75A0395.JPG",
-      position: "Founder",
+    {
+      imageSrc: "./assets/team/_75A0395.jpg",
+      position: "International Partnerships",
       name: "Sam Abrahams",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    }, */
+      links: [],
+    },
   ],
 }) => {
   return (

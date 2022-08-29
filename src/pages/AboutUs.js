@@ -1,14 +1,11 @@
 import React from "react";
 import tw from "twin.macro";
 import Header from "components/headers/light.js";
-import Footer from "components/footers/FiveColumnWithInputForm.js";
 import MainFeature1 from "components/features/TwoColWithButton.js";
-// import MainFeature2 from "components/features/TwoColSingleFeatureWithStats.js";
-// import MainFeature3 from "components/features/TwoColSingleFeatureWithStats2.js";
-// import Features from "components/features/ThreeColWithSideImage.js";
 import TeamCardGrid from "components/cards/ProfileThreeColGrid.js";
 
 import { StyledDiv } from "helpers/PageWrapper";
+import MiniCenteredFooter from "components/footers/MiniCenteredFooter";
 
 const Subheading = tw.span`uppercase tracking-wider text-sm`;
 export default () => {
@@ -30,34 +27,8 @@ export default () => {
         imageSrc="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80"
         textOnLeft={false}
       />
-      {/* <Features
-        subheading={<Subheading>Our Values</Subheading>}
-        heading="We follow these guiding principles."
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        cards={[
-          {
-            imageSrc: SupportIconImage,
-            title: "24/7 Support",
-            description:
-              "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport",
-          },
-          {
-            imageSrc: ShieldIconImage,
-            title: "Strong Teams",
-            description:
-              "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport",
-          },
-          {
-            imageSrc: CustomerLoveIconImage,
-            title: "Customer Satisfaction",
-            description:
-              "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport",
-          },
-        ]}
-        linkText=""
-      /> */}
       <TeamCardGrid subheading={<Subheading>Our Team</Subheading>} />
-      <Footer />
+      <MiniCenteredFooter />
     </StyledDiv>
   );
 };

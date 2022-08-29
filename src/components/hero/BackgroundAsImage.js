@@ -64,9 +64,9 @@ export default () => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-              <span>Youth-driven consultancy &#38; development</span>
+              <span>Stategic Communications</span>
               <br />
-              <SlantedBackground>Bright futures start here</SlantedBackground>
+              <SlantedBackground>Driven by data, led by you</SlantedBackground>
             </Heading>
           </LeftColumn>
         </TwoColumn>

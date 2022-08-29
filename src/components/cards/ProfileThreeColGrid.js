@@ -55,21 +55,15 @@ export default ({
       links: [],
     },
     {
-      imageSrc: "./assets/team/marketing.jpg",
-      position: "Marketing",
-      name: "Thabo Masiye",
-      links: [],
-    },
-    {
       imageSrc: "./assets/team/_75A0384.jpg",
       position: "Executive Administrator",
       name: "Anita Mulenga",
       links: [],
     },
     {
-      imageSrc: "./assets/team/_75A0371.jpg",
-      position: "Communications & Research",
-      name: "Jasmine Thomas",
+      imageSrc: "./assets/team/marketing.jpg",
+      position: "Marketing",
+      name: "Thabo Masiye",
       links: [],
     },
     {
@@ -79,21 +73,27 @@ export default ({
       links: [],
     },
     {
+      imageSrc: "./assets/team/_75A0371.jpg",
+      position: "Communications & Research",
+      name: "Jasmine Thomas",
+      links: [],
+    },
+    {
       imageSrc: "./assets/team/youth_engagement.jpg",
       position: "Youth Engagement",
       name: "Thabo Haambote",
       links: [],
     },
     {
-      imageSrc: "./assets/team/_75A0381.jpg",
-      position: "Creative Director",
-      name: "Mwansa Mutale",
-      links: [],
-    },
-    {
       imageSrc: "./assets/team/_75A0363.jpg",
       position: "CTO",
       name: "Anthony Sikaneta",
+      links: [],
+    },
+    {
+      imageSrc: "./assets/team/_75A0381.jpg",
+      position: "Creative Director",
+      name: "Mwansa Mutale",
       links: [],
     },
     {

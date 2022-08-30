@@ -46,7 +46,7 @@ const CardLinks = styled.div`
 export default ({
   heading = "Meet The Team.",
   subheading = "Our Team",
-  description = "The young group that is making it all happen.",
+  description,
   cards = [
     {
       imageSrc: "./assets/team/pele.jpg",

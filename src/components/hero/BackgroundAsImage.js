@@ -64,7 +64,7 @@ export default () => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-              <span>Stategic Communications</span>
+              <span>Strategic Communications</span>
               <br />
               <SlantedBackground>Driven by data, led by you</SlantedBackground>
             </Heading>

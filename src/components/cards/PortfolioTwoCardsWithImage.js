@@ -84,12 +84,12 @@ export default ({
     {
       imageSrc: "assets/portfolio/tv_app.png",
       company: "TumaVideo",
-      type: "Cash for your content",
+      type: "Earn, connect, explore",
       title:
         "Pre-register to be notified as soon as the Tuma Video app goes live!",
       durationText: "3 months of on-going development",
       locationText: "Zambia",
-      link: "#",
+      link: "http://tumavideo.com/",
       cardLinkText: "",
     },
   ];
@@ -102,38 +102,41 @@ export default ({
               <Subheading>{subheading}</Subheading>
               <HeadingTitle>{headingHtmlComponent}</HeadingTitle>
               <HeadingDescription>{description}</HeadingDescription>
-              <PrimaryLink>
-                {linkText} <ArrowRightIcon />
-              </PrimaryLink>
             </HeadingInfoContainer>
           </HeadingColumn>
           {cards.map((card, index) => (
             <CardColumn key={index}>
               <Card>
-                <CardImage imageSrc={card.imageSrc} />
+                <Link
+                  to="#"
+                  onClick={() => {
+                    window.open(card.link, "_blank");
+                  }}
+                  className="px-8 py-3 font-bold rounded bg-primary-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline focus:outline-none transition duration-300"
+                >
+                  <CardImage imageSrc={card.imageSrc} />
+                </Link>
                 <CardText>
                   <CardHeader>
-                    <CardCompany>{card.company}</CardCompany>
-                    <CardType>{card.type}</CardType>
+                    <Link
+                      to="#"
+                      onClick={() => {
+                        window.open(card.link, "_blank");
+                      }}
+                      className="px-8 py-3 font-bold rounded bg-primary-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline focus:outline-none transition duration-300"
+                    >
+                      <CardCompany>{card.company}</CardCompany>
+                    </Link>
+                    <Link
+                      to="#"
+                      onClick={() => {
+                        window.open(card.link, "_blank");
+                      }}
+                      className="px-8 py-3 font-bold rounded bg-primary-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline focus:outline-none transition duration-300"
+                    >
+                      <CardType>{card.type}</CardType>
+                    </Link>
                   </CardHeader>
-                  <CardTitle>{card.title}</CardTitle>
-                  <CardMeta>
-                    <CardMetaFeature>
-                      <TimeIcon /> {card.durationText}
-                    </CardMetaFeature>
-                    <CardMetaFeature>
-                      <LocationIcon /> {card.locationText}
-                    </CardMetaFeature>
-                  </CardMeta>
-                  <Link
-                    to="#"
-                    onClick={() => {
-                      window.open(card.link, "_blank");
-                    }}
-                    className="px-8 py-3 font-bold rounded bg-primary-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline focus:outline-none transition duration-300"
-                  >
-                    {card.cardLinkText}
-                  </Link>
                 </CardText>
               </Card>
             </CardColumn>

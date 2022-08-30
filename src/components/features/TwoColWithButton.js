@@ -51,7 +51,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "Using well researched approaches to solving problems targeted at youth.",
+  description = "We want to help you connect with the people who matter most to you. Whether you're trying to reach a million social media followers, a handful of policy makers, or a single investor, we'll help you to share your story, clearly and effectively.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "/contact",
   imageSrc = TeamIllustrationSrc,

@@ -65,20 +65,48 @@ export default () => {
   const cards = [
     {
       imageSrc: ShieldIconImage,
-      title: "Ads Management",
-      description: "We create and manage ads that you need, from creation to deployment. Lorem ipsum donor sit amet consicou."
+      title: "Ad Management",
+      description:
+        "We develop and deploy innovative ad campaigns, which catch your audience’s attention.",
     },
-    { imageSrc: SupportIconImage, title: "Video Marketing" },
-    { imageSrc: CustomizeIconImage, title: "Customer Relation" },
-    { imageSrc: ReliableIconImage, title: "Product Outreach" },
-    { imageSrc: FastIconImage, title: "PR Campaign" },
-    { imageSrc: SimpleIconImage, title: "Product Expansion" }
+    {
+      imageSrc: SupportIconImage,
+      title: "Video Marketing",
+      description:
+        "We script, record, and distribute short-form video that carries your message.  ",
+    },
+    {
+      imageSrc: CustomizeIconImage,
+      title: "Speech Writing",
+      description:
+        "We work with you to draft and edit memorable speeches that will stay with your audience long after your event is over.",
+    },
+    {
+      imageSrc: ReliableIconImage,
+      title: "Graphic Design",
+      description:
+        "Our award winning graphic design team creates content that catches the eye and holds your audience’s attention.",
+    },
+    {
+      imageSrc: FastIconImage,
+      title: "Data Analytics",
+      description:
+        "We use the best data available to help you listen to public sentiment and reach your target audience.",
+    },
+    {
+      imageSrc: SimpleIconImage,
+      title: "International Media",
+      description:
+        "Your story goes beyond borders. We’ll work with international media outlets to share your message with the world.",
+    },
   ];
 
   return (
     <Container>
       <ThreeColumnContainer>
-        <Heading>Our Professional <span tw="text-primary-500">Services</span></Heading>
+        <Heading>
+          Our Professional <span tw="text-primary-500">Services</span>
+        </Heading>
         {cards.map((card, i) => (
           <Column key={i}>
             <Card>
@@ -88,7 +116,8 @@ export default () => {
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>
                 <p className="description">
-                  {card.description || "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud. Sic Semper Tyrannis. Neoas Calie artel."}
+                  {card.description ||
+                    "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud. Sic Semper Tyrannis. Neoas Calie artel."}
                 </p>
               </span>
             </Card>

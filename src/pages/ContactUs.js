@@ -25,7 +25,6 @@ export default () => {
                   <AddressLine>Roma, LUN 10101</AddressLine>
                 </Address>
                 <Email>info@crowdsourcecreators.com</Email>
-                <Phone>+260 (76) 642-6165</Phone>
                 <Phone>+260 (97) 797-1685</Phone>
               </>
             ),

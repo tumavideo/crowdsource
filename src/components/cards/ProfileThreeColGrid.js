@@ -69,7 +69,7 @@ export default ({
     {
       imageSrc: "./assets/team/accounts.jpg",
       position: "Accounts",
-      name: "Andrew Mabonde",
+      name: "Andrew Mubonde",
       links: [],
     },
     {

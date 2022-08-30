@@ -86,7 +86,7 @@ export default ({
     },
     {
       imageSrc: "./assets/team/_75A0363.jpg",
-      position: "CTO",
+      position: "Tech Lead",
       name: "Anthony Sikaneta",
       links: [],
     },

@@ -15,6 +15,7 @@ import CustomizeIconImage from "../../images/customize-icon.svg";
 import FastIconImage from "../../images/fast-icon.svg";
 import ReliableIconImage from "../../images/reliable-icon.svg";
 import SimpleIconImage from "../../images/simple-icon.svg";
+import { PrimaryButton } from "components/misc/Buttons";
 
 const Container = tw.div`relative`;
 
@@ -52,6 +53,8 @@ const Card = styled.div`
 const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
+
+const CallToAction = tw.p`flex flex-col m-16 items-center`;
 
 export default () => {
   /*
@@ -124,6 +127,11 @@ export default () => {
           </Column>
         ))}
       </ThreeColumnContainer>
+      <CallToAction>
+        <PrimaryButton as="a" href={"/contact"}>
+          {"Hire Us"}
+        </PrimaryButton>
+      </CallToAction>
       <DecoratorBlob />
     </Container>
   );

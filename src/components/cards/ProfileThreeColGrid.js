@@ -49,33 +49,15 @@ export default ({
   description,
   cards = [
     {
-      imageSrc: "./assets/team/pele.jpg",
-      position: "Business & Development",
-      name: "Phele Chunga",
-      links: [],
-    },
-    {
       imageSrc: "./assets/team/_75A0384.jpg",
       position: "Executive Administrator",
       name: "Anita Mulenga",
       links: [],
     },
     {
-      imageSrc: "./assets/team/marketing.jpg",
-      position: "Marketing",
-      name: "Thabo Masiye",
-      links: [],
-    },
-    {
       imageSrc: "./assets/team/accounts.jpg",
       position: "Accounts",
       name: "Andrew Mubonde",
-      links: [],
-    },
-    {
-      imageSrc: "./assets/team/_75A0371.jpg",
-      position: "Communications & Research",
-      name: "Jasmine Thomas",
       links: [],
     },
     {
@@ -88,12 +70,6 @@ export default ({
       imageSrc: "./assets/team/_75A0363.jpg",
       position: "Tech Lead",
       name: "Anthony Sikaneta",
-      links: [],
-    },
-    {
-      imageSrc: "./assets/team/_75A0381.jpg",
-      position: "Creative Director",
-      name: "Mwansa Mutale",
       links: [],
     },
     {

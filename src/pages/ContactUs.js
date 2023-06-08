@@ -21,8 +21,8 @@ export default () => {
             description: (
               <>
                 <Address>
-                  <AddressLine>Unit 2, Plot No. 57A Lukanga Road</AddressLine>
-                  <AddressLine>Roma, LUN 10101</AddressLine>
+                  <AddressLine>Farm No. 32A, Foxdale Forest</AddressLine>
+                  <AddressLine>Kabanana, LUN 10101</AddressLine>
                 </Address>
                 <Email>info@crowdsourcecreators.com</Email>
                 <Phone>+260 (97) 797-1685</Phone>
